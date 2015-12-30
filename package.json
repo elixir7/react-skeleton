@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "watchify src/main.jsx -v -t [ babelify --presets [react] ] -o public/js/main.js",
-    "deploy": "ghpages",
-    "ghpages": "ghpages"
+    "deploy": "ghpages"
   },
   "repository": {
     "type": "git",
@@ -21,15 +20,12 @@
   "dependencies": {
     "babel-preset-react": "^6.3.13",
     "babelify": "^7.2.0",
-    "budo": "^7.1.0",
-    "firebase": "^2.3.2",
     "ghpages": "0.0.3",
     "history": "^1.17.0",
     "http-server": "^0.8.5",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "react-router": "^1.0.3",
-    "reactfire": "^0.5.1",
     "watchify": "^3.6.1"
   }
 }
